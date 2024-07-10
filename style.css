@@ -1,0 +1,23 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url(./maps.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main > i{
+    font-size: 40px;
+    color: red;
+    top: 33%;
+    left: 52%;
+    position: absolute;
+}
